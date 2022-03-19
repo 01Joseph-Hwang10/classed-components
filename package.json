@@ -1,7 +1,7 @@
 {
   "name": "clsc",
   "version": "1.0.2",
-  "description": "Helper library for class based css frameworks like tailwindcss. Highly inspired by styled-components",
+  "description": "React helper library for class based css frameworks like tailwindcss. Highly inspired by styled-components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/01Joseph-Hwang10/classed-components.git"
+    "url": "https://github.com/01Joseph-Hwang10/clsc.git"
   },
   "dependencies": {
     "clsx": "^1.1.1",

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`classed should match with snapshot when used classed-components 1`] = `
+<div
+  className="h-full flex flex-col"
+>
+  <div
+    className="text-gray-500 text-center text-xs py-2 border-b"
+  >
+    Choose a ride, or swipe up for more
+  </div>
+  <div
+    className="flex flex-col flex-1 overflow-scroll"
+  >
+    <div
+      className="border-2 flex p-3 m-2 items-center border-black"
+      selected={true}
+    >
+      <img
+        className="flex justify-center align-center rounded shadow-md h-14"
+        src="https://via.placeholder.com/100"
+      />
+      <span
+        className="text-gray-500 text-xs py-2 text-center"
+      >
+        Car 1
+      </span>
+    </div>
+    <div
+      className="border-2 flex p-3 m-2 items-center border-white"
+    >
+      <img
+        className="flex justify-center align-center rounded shadow-md h-14"
+        src="https://via.placeholder.com/100"
+      />
+      <span
+        className="text-gray-500 text-xs py-2 text-center"
+      >
+        Car 2
+      </span>
+    </div>
+  </div>
+</div>
+`;

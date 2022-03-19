@@ -1,4 +1,4 @@
-# Classed Components
+# clsc : Classed-Components (for React)
 
 React Helper library for class based css frameworks like tailwindcss. Highly inspired by styled-components.
 
@@ -37,7 +37,7 @@ export default Image;
 // 'app.tsx'
 import React from "react";
 import clsx from "clsx";
-import classed, { tw } from "../dist";
+import classed, { tw } from "clsc";
 import Image, { ImageProps } from "./image";
 
 // Function style component declaration

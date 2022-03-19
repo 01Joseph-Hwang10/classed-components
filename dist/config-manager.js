@@ -10,7 +10,7 @@ const initConfig = () => {
     }
     catch (e) { }
     try {
-        config = require("../../../classed.config");
+        config = require("../../../clsc.config");
     }
     catch (e) {
         config = {};

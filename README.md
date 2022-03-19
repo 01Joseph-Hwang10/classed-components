@@ -2,6 +2,29 @@
 
 React Helper library for class based css frameworks like tailwindcss. Highly inspired by styled-components.
 
+## Installation
+
+```bash
+# npm
+npm install clsc
+# yarn
+yarn add clsc
+```
+
+## Configuration
+
+You can include or/and exclude html tags to use by adding the property accordingly in a js file which should be named as `clsc.config.js` and placed in the root of your project.
+
+Configuration Interface
+```ts
+interface Config {
+  // HTML tags to include. If defined, exclude property will be ignored
+  include?: string[];
+  // HTML tags to exclude.
+  exclude?: string[];
+}
+```
+
 ## Usage
 
 Like `styled` in styled-components, template tag is attached after `classed` and HTML tag (or custom function/functional component).

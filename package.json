@@ -1,6 +1,6 @@
 {
   "name": "clsc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper library for class based css frameworks like tailwindcss. Highly inspired by styled-components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

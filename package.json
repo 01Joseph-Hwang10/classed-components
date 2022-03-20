@@ -1,6 +1,6 @@
 {
   "name": "clsc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React helper library for class based css frameworks like tailwindcss. Highly inspired by styled-components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "test": "export NODE_ENV=\"test\" && jest",
-    "apply": "./scripts/apply.sh"
+    "apply": "./scripts/apply.sh",
+    "clear": "rm -rf dist"
   },
   "author": "01Joseph-Hwang10",
   "license": "MIT",
